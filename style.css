@@ -1,0 +1,11 @@
+.main{
+    display: flex;
+    padding: 12px;
+}
+.main select {
+    margin: 5px;
+}
+
+.main div {
+    margin: 5px;
+   }

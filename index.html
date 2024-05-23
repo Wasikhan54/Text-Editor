@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Text editot</title>
+</head>
+
+<body>
+    <h1>Text Editor</h1>
+    <div class="main">
+        <select name="head" id="heading">
+            <option value="Headings">Headings</option>
+            <option value="SubHeadings">Sub Headings</option>
+            <option value="Paragraph">Paragraph</option>
+        </select>
+        <select name="FontSize" id="fonts">
+            <option value="monospace">monospace</option>
+            <option value="Courier">Courier new</option>
+            <option value="SansSarif"> Sans Sarif</option>
+        </select>
+        <div>
+            <button class="actionBtn">Bold</button>
+            <button class="actionBtn">italic</button>
+            <button class="actionBtn">undeline</button>
+            <button class="actionBtn">Left</button>
+            <button class="actionBtn">Right</button>
+            <button class="actionBtn">Center</button>
+            <button class="actionBtn">justify</button>
+        </div>
+    </div>
+    <div>
+        <p id="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga maiores ipsum porro praesentium distinctio,
+            exercitationem assumenda similique fugit numquam nesciunt corporis est asperiores possimus dolore ea
+            consequatur nulla repellendus qui.</p>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
